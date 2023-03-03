@@ -2,14 +2,13 @@
   "name": "tmbd",
   "version": "1.0.0",
   "description": "app using tmbd api",
-  "main": "index.js",
+  "main": "server.js",
   "engines": {
     "node": "16.19.1", 
      "npm": "8.19.3"
 } ,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently 'npm run server'",
     "server": "nodemon api/server.js"
   },
   "repository": {

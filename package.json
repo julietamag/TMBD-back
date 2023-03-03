@@ -1,0 +1,42 @@
+{
+  "name": "tmbd",
+  "version": "1.0.0",
+  "description": "app using tmbd api",
+  "main": "index.js",
+  "engines": {
+    "node": "16.19.1", 
+     "npm": "8.19.3"
+} ,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon api/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julietamag/TMBD-back.git"
+  },
+  "author": "julietamagnago",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julietamag/TMBD-back/issues"
+  },
+  "homepage": "https://github.com/julietamag/TMBD-back#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "axios": "^1.3.4",
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.9.0",
+    "pg-hstore": "^2.3.4",
+    "postcss-cli": "^10.1.0",
+    "sequelize": "^6.29.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.21"
+  }
+}
